@@ -1,0 +1,10 @@
+# Archivos generados al ejecutar los scripts
+*.csv
+*.png
+
+# Python
+__pycache__/
+.venv/
+
+# macOS
+.DS_Store

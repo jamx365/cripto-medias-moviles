@@ -66,6 +66,7 @@ Los resultados espectaculares se desploman fuera de la muestra, aunque la estrat
 | `paso1_btc.py` | Descarga velas de Binance, limpia los datos, resumen y gráfico de precio |
 | `paso2_estrategia.py` | Backtest de una estrategia frente a comprar y mantener, con gráficos |
 | `paso3_comparar.py` | Prueba 75 combinaciones, resumen por moneda y prueba pasado/futuro |
+| `paso4_dashboard.py` | Dashboard interactivo: eliges moneda y medias y se recalcula todo (KPIs, gráficos, registro de operaciones) |
 
 ## Cómo ejecutarlo
 
@@ -79,13 +80,16 @@ pip3 install -r requirements.txt
 python3 paso1_btc.py
 python3 paso2_estrategia.py
 python3 paso3_comparar.py
+
+# Dashboard interactivo (se abre en el navegador)
+python3 -m streamlit run paso4_dashboard.py
 ```
 
 Cada script tiene la configuración (moneda, medias, comisión) al principio para cambiarla fácilmente. Cierra la ventana del gráfico para que el script termine.
 
 ## Herramientas
 
-Python · pandas · matplotlib · requests · API pública de Binance
+Python · pandas · matplotlib · Plotly · Streamlit · requests · API pública de Binance
 
 ## Autor
 

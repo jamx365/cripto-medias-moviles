@@ -1,6 +1,7 @@
 # Archivos generados al ejecutar los scripts
 *.csv
 *.png
+!imagenes/*.png
 
 # Python
 __pycache__/

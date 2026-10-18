@@ -8,6 +8,12 @@ Análisis en Python de una estrategia de trading clásica (cruce de medias móvi
 
 > El cruce de medias **no gana dinero de forma fiable**. Funciona como un **seguro**: reduce las pérdidas en mercados bajistas a cambio de perder parte de las subidas. Y las combinaciones que parecen espectaculares en el pasado **no repiten** después (sobreajuste).
 
+## Dashboard interactivo
+
+![Dashboard con BTC, medias 20/269](imagenes/dashboard.png)
+
+*BTC con medias 20/269: +46,9 % frente a +20,9 % y una caída máxima mucho menor. Pero son **solo 2 operaciones** y la media de 269 días salió de probar números a mano: es justo el tipo de resultado que hay que validar antes de creérselo (ver pregunta 3).*
+
 ## Preguntas y resultados
 
 Datos diarios de ~1.000 días (2024 – octubre 2026), comisión del 0,1 % por operación.
